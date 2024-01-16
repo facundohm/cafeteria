@@ -10,26 +10,33 @@
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <a href="./index.html"><img src="./img/icono.png" alt=""></a>
-            <ul class="menu_ul">
-                <li class="menu_item active">
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li class="menu_item">
-                    <a href="./pages/menu.html">Nuestro Menú</a>
-                </li>
-                <li class="menu_item">
-                    <a href="./pages/blog.html">Blog Cafe</a>
-                </li>
-                <li class="menu_item"> 
-                    <a href="./pages/nosotros.html">Nuestra Historia</a>
-                </li>
-                <li class="menu_item">
-                    <a href="./pages/delivery.html">Delivery</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Coffeelove</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/menu.html">Nuestro Menú</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/nosotros.html">Nuestra Historia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/delivery.html">Delivery</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
@@ -45,13 +52,37 @@
             <h2 class="text-center fs-1">Nuestras Especialidades</h2>
         </section>
 
-        <section>
+        <section class="row justify-content-start">
 
-         <div class="text-center">
+         <div class="text-center py-2 col">
             <div class="bg-dark mx-1 py-3">
             <h3 class="text-center text-white">Pan de campo</h2>
              <div class="text-center py-2">
-            <img src="./img/pan de campo.jpg" alt="" class="">
+            <img src="./img/pan de campo.jpg" alt="" class="img-fluid px-4">
+             </div>
+            <p class="text-center text-white mx-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt id quos dicta quas sint placeat iure ducimus exercitationem amet, esse reprehenderit dolor a quia, tenetur atque deleniti distinctio. Impedit, fuga.</p>
+            <a href="./pages/menu.html"><button class="btn btn-outline-secondary">ver en el menu</button></a>
+            </div>
+         </div>
+
+
+         <div class="text-center py-2 col">
+            <div class="bg-dark mx-1 py-3">
+            <h3 class="text-center text-white">Tostadas</h2>
+             <div class="text-center py-2">
+            <img src="./img/tostadas.png" alt="" class="img-fluid px-4">
+             </div>
+            <p class="text-center text-white mx-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt id quos dicta quas sint placeat iure ducimus exercitationem amet, esse reprehenderit dolor a quia, tenetur atque deleniti distinctio. Impedit, fuga.</p>
+            <a href="./pages/menu.html"><button class="btn btn-outline-secondary">ver en el menu</button></a>
+            </div>
+         </div>
+
+
+         <div class="text-center py-2 col">
+            <div class="bg-dark mx-1 py-3">
+            <h3 class="text-center text-white">Ensalada de Frutas</h2>
+             <div class="text-center py-2">
+            <img src="./img/ensalada de frutas.jpg" alt="" class="img-fluid px-4">
              </div>
             <p class="text-center text-white mx-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt id quos dicta quas sint placeat iure ducimus exercitationem amet, esse reprehenderit dolor a quia, tenetur atque deleniti distinctio. Impedit, fuga.</p>
             <a href="./pages/menu.html"><button class="btn btn-outline-secondary">ver en el menu</button></a>

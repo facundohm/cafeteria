@@ -6,40 +6,6 @@
 
 /* CCS HEADER */
 
-.menu {
-    background-color: rgb(214, 193, 166);
-    padding-block: .4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.menu img{
-    width: 2.3rem;
-    margin-inline: 1rem;
-}
-.menu_ul {
-    display: flex;
-}
-.menu_item {
-    margin-inline: 1rem;
-    list-style-type: none;
-}
-.menu_item a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-.menu_item.active {
-    text-decoration: underline double;
-    text-decoration-color: rgb(0, 0, 0);
-}
-
-.menu_item a:hover {
-    text-decoration: underline double;
-}
-
-/* MENU DE NAVEGACIÓN */
-
 .sect1 {
     padding: .4rem;
     text-align: center;
