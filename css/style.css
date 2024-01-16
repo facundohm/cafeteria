@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* CCS INICIAL */
 
 .mainmenu {
     background-color: rgb(9, 223, 151);
@@ -57,7 +47,7 @@
 
 .sect2 {
     background-image: url(../img/cafeteria.jpg);
-    height: 50vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -80,19 +70,12 @@
     padding-inline: .6rem;
 }
 
-.sect3 h2 {
-    text-align: center;
-}
 .sect4 {
     display: flex;
     align-items: center;
     width: 100%;
     padding-inline: 2rem;
     padding-block: 2rem;
-}
-
-.sect3 {
-    padding: 2rem 0rem 0rem 0rem;
 }
 
 .sect5 {
