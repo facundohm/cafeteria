@@ -1,11 +1,11 @@
 footer {
-    background-color: rgb(97, 95, 95);
+    background-color: $colortres;
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    footer p {
-        color: aliceblue;
+    p {
+        color: $colordos;
     }
 }

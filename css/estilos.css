@@ -1,3 +1,7 @@
+.navegacion {
+  background-color: #39372e;
+}
+
 .sect1 {
   padding: 0.4rem;
   text-align: center;
@@ -133,14 +137,14 @@
 }
 
 footer {
-  background-color: rgb(97, 95, 95);
+  background-color: #0b0a08;
   height: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-footer footer p {
-  color: aliceblue;
+footer p {
+  color: #bebfae;
 }
 
 .nuestra-historia {
