@@ -1,0 +1,39 @@
+.entradablog {
+    background-image: url(../img/cafeteria2.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        background-color: rgba(0, 0, 0, 0.658);
+        color: wheat;
+        padding-inline: 1.5rem;
+        font-size: 3rem;
+    }
+}
+
+.blog {
+    padding-inline: 2rem;
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 1rem;
+    margin: .5rem .5rem .5rem .5rem;
+}
+
+.columna {
+    padding-inline: .6rem;
+    padding-block: .6rem;
+}
+
+.botonblog {
+    background-color: rgb(247, 215, 157);
+    width: 5rem;
+}

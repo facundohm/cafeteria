@@ -1,0 +1,43 @@
+.sectm1 {
+    background-image: url(../img/ensalada.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        color: white;
+        font-size: 5rem;
+     }
+}
+
+.sectm2 h2 {
+    text-align: center;
+    font-size: 2rem;
+    background-color: white;
+}
+
+.sectm3 {
+    display: flex;
+}
+
+.menu_carta {
+    width: 100%;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.costo {
+    font-size: 1.5rem;
+    padding-block: 1.2rem ;
+    border-bottom: 1px solid; 
+}

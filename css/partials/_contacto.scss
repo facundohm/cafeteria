@@ -1,0 +1,25 @@
+.contacto-1 {
+    background-image: url(../img/cafeteria2.jpg);
+    background-size: cover;
+}
+
+.titulo-contacto {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.formulario {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.479) ;
+    text-align: center;
+    justify-content: center;
+}
+
+.forma {
+    border: 3px solid rgb(218, 215, 77);
+    border-radius: 3rem;
+    padding: 1rem;
+    margin: .5rem;
+}

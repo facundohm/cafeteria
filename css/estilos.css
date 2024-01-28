@@ -1,1 +1,267 @@
-/*# sourceMappingURL=estilos.css.map */
+.sect1 {
+  padding: 0.4rem;
+  text-align: center;
+}
+
+.sect2 {
+  background-image: url(../img/cafeteria.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sect2 h2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.589);
+  padding-inline: 1rem;
+}
+.sect2 p {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.322);
+  padding-inline: 0.6rem;
+}
+
+.sect4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-inline: 2rem;
+  padding-block: 2rem;
+}
+
+.sect5 {
+  padding-inline: 2rem;
+}
+.sect5 h2 {
+  text-align: center;
+  padding-block: 0rem 2rem;
+}
+.sect5 .map {
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+  width: 100%;
+  height: 40vh;
+}
+
+.sectm1 {
+  background-image: url(../img/ensalada.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sectm1 h1 {
+  color: white;
+  font-size: 5rem;
+}
+
+.sectm2 h2 {
+  text-align: center;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.sectm3 {
+  display: flex;
+}
+
+.menu_carta {
+  width: 100%;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.costo {
+  font-size: 1.5rem;
+  padding-block: 1.2rem;
+  border-bottom: 1px solid;
+}
+
+.entradablog {
+  background-image: url(../img/cafeteria2.jpg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.entradablog h1 {
+  background-color: rgba(0, 0, 0, 0.658);
+  color: wheat;
+  padding-inline: 1.5rem;
+  font-size: 3rem;
+}
+
+.blog {
+  padding-inline: 2rem;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 1rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.columna {
+  padding-inline: 0.6rem;
+  padding-block: 0.6rem;
+}
+
+.botonblog {
+  background-color: rgb(247, 215, 157);
+  width: 5rem;
+}
+
+footer {
+  background-color: rgb(97, 95, 95);
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer footer p {
+  color: aliceblue;
+}
+
+.nuestra-historia {
+  background-image: url(../img/cafeteria.jpg);
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding-inline: 4rem;
+}
+.nuestra-historia p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding-inline: 2rem;
+  text-align: center;
+}
+.nuestra-historia h1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding-inline: 2rem;
+  text-align: center;
+}
+
+.section-nuestra-historia {
+  padding-top: 2rem;
+  display: flex;
+  padding-inline: 3rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 2rem;
+}
+.section-nuestra-historia img {
+  width: 100%;
+}
+.section-nuestra-historia p {
+  text-align: center;
+}
+
+.div-izquierda {
+  width: 1000px;
+}
+
+.section-2 {
+  padding-top: 2rem;
+  display: flex;
+  padding-inline: 3rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.section-2 img {
+  width: 100%;
+}
+.section-2 p {
+  text-align: center;
+}
+
+.amarillo {
+  background-color: rgb(238, 238, 93);
+  display: flex;
+  gap: 1rem;
+  padding-inline: 2rem;
+  padding-block: 2rem;
+  text-align: center;
+}
+.amarillo p {
+  padding-bottom: 1rem;
+  font-size: 0.85rem;
+}
+.amarillo div {
+  display: flex;
+}
+
+.galeria {
+  display: flex;
+  gap: 1rem;
+  padding-inline: 2rem;
+  padding-top: 2rem;
+}
+
+.div-img {
+  width: 33%;
+  height: 500px;
+  background-color: aqua;
+  border-bottom: 2rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+.div-img img {
+  max-width: 100%;
+}
+
+.contacto-1 {
+  background-image: url(../img/cafeteria2.jpg);
+  background-size: cover;
+}
+
+.titulo-contacto {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.479);
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.formulario {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.479);
+  text-align: center;
+  justify-content: center;
+}
+
+.forma {
+  border: 3px solid rgb(218, 215, 77);
+  border-radius: 3rem;
+  padding: 1rem;
+  margin: 0.5rem;
+}/*# sourceMappingURL=estilos.css.map */
